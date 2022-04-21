@@ -153,13 +153,13 @@
         Ihr eindeutiger Benutzername ist der erste Name, den deine Kontakte in ihren Suchen und Kontaktlisten sehen werden.\n\nEr kann nicht geändert werden.</string>
     <string name="registration_choose_username_hint">Benutzername</string>
     <string name="registration_username_explanation">
-        Der von Ihnen gewählte Benutzername wird beim User Discovery Service registriert, so dass Ihre öffentlichen Schlüssel für jeden, der Ihren Benutzernamen kennt, zugänglich sind.
+        Der von Ihnen gewählte Benutzername wird beim Benutzererkennungsdienst registriert, so dass Ihre öffentlichen Schlüssel für jeden, der Ihren Benutzernamen kennt, zugänglich sind.
 	Andere können dann eine Anfrage senden, um einen authentifizierten Kanal mit dir zu erstellen. Du hast dann die Möglichkeit, unerwünschte Anfragen abzulehnen.</string>
     <string name="registration_username_info_title">Dein Benutzername</string>
     <string name="registration_username_info_body">
-        Der von Ihnen gewählte Benutzername wird beim User Discovery Service registriert, so dass Ihre öffentlichen Schlüssel für jeden, der Ihren Benutzernamen kennt, zugänglich sind.
+        Der von Ihnen gewählte Benutzername wird beim Benutzererkennungsdienst registriert, so dass Ihre öffentlichen Schlüssel für jeden, der Ihren Benutzernamen kennt, zugänglich sind.
 	Andere können dann eine Anfrage senden, um einen authentifizierten Kanal mit dir zu erstellen. Du hast dann die Möglichkeit, unerwünschte Anfragen abzulehnen.</string>
-    <string name="registration_username_info_dialog_link_text">User Discovery Service</string>
+    <string name="registration_username_info_dialog_link_text">Benutzererkennungsdienst</string>
     <string name="registration_username_info_dialog_link_url">https://links.xx.network/ud</string>
     <string name="registration_error_username_min_len">
         User name must be at least four characters</string>
@@ -179,116 +179,106 @@
     <string name="registration_welcome_dialog_title">Willkommen</string>
     <string name="registration_welcome_dialog_body">Die Angabe ist freiwillig. Wenn du eine Email-Adresse oder eine Telefonnummer angibst, wird sie von twillio, einem Drittanbieter evaluiert.
 	Danach werden die gesalzenen Hashes in der Benutzererkennung registriert, um anderen Nutzern die Möglichkeit zu geben, anhand der registrierten Daten ganz datenschutzkonform nach Ihnen zu suchen. </string>
-    <string name="registration_welcome_dialog_link_text">User Discovery</string>
+    <string name="registration_welcome_dialog_link_text">Benutzererkennung</string>
     <string name="registration_welcome_dialog_link_url">https://links.xx.network/ud</string>
 
     <!-- Registration: Email -->
 
     <string name="registration_email_title">Email-Adresse hinzufügen.</string>
     <string name="registration_email_body">
-        You can add, remove, or edit this email in your profile
-        settings. Adding an email is optional.</string>
+        Du kannst die Email-Adresse in den Profileinstellungen hinzufügen, löschen oder bearbeiten.
+	Das Hinzufügen einer Email-Adresse ist optional.</string>
     <string name="registration_add_email_hint">Email</string>
-    <string name="registration_email_skip_text">Skip. Do not add an email</string>
-    <string name="registration_email_info_title">Your Email</string>
+    <string name="registration_email_skip_text">Überspringen. Keine Email-Adresse hinzufügen</string>
+    <string name="registration_email_info_title">Deine Email-Adresse</string>
     <string name="registration_email_info_body">
-        This email will be shared with our third-party provider, Twilio, to verify your
-        ownership through a confirmation code. However, it will be immediately removed from
-        the xx network’s systems and only a salted hash of the email will be stored in the
-        User Discovery Service.</string>
-    <string name="registration_email_info_link_text">User Discovery Service</string>
+        Deine Email-Adresse wird mit dem Drittanbieter twillio geteilt, um über einen Code zu verifizieren, dass du ihr Eigentümer bist.
+	Sie wird jedoch sofort aus den Systemen des den Systemen des xx Netzwerks entfernt und nur ein gesalzener Hash der E-Mail wird im Benutzererkennungsdienst gespeichert.</string>
+    <string name="registration_email_info_link_text">Benutzererkennungsdienst</string>
     <string name="registration_email_info_link_url">https://links.xx.network/ud</string>
-    <string name="registration_email_error_already_exists">That email is already registered.</string>
+    <string name="registration_email_error_already_exists">Diese Email-Adresse wurde bereits registriert.</string>
 
     <!-- Registration: Phone -->
 
-    <string name="registration_phone_title">Add your phone number.</string>
+    <string name="registration_phone_title">Telefonnummer hinzufügen.</string>
     <string name="registration_phone_body">
-        You can add, remove, or edit this phone number in your profile settings.
-        Adding a phone number is optional.</string>
-    <string name="registration_add_phone_hint">Phone Number</string>
-    <string name="registration_phone_skip_text">Skip. Do not add a phone number</string>
-    <string name="registration_phone_info_title">Your Phone Number</string>
+        Du kannst die Telefonnummer in den Profileinstellungen hinzufügen, löschen oder bearbeiten.
+	Das Hinzufügen einer Telefonnummer ist optional.</string>
+    <string name="registration_add_phone_hint">Telefonnummer</string>
+    <string name="registration_phone_skip_text">Überspringen. Keine Telefonnummer hinzufügen.</string>
+    <string name="registration_phone_info_title">Deine Telefonnummer</string>
     <string name="registration_phone_info_body">
-        This phone number will be shared with our third-party provider, Twilio, to verify your
-        ownership through a confirmation code. However, it will be immediately removed from
-        the xx network’s systems and only a salted hash of the phone number will be stored in the
-        User Discovery Service.</string>
-    <string name="registration_phone_info_link_text">User Discovery Service</string>
+        Deine Telefonnummer wird mit dem Drittanbieter twillio geteilt, um über einen Code zu verifizieren, dass du ihr Eigentümer bist.
+	Sie wird jedoch sofort aus den Systemen des den Systemen des xx Netzwerks entfernt und nur ein gesalzener Hash der Telefonnummer wird im Benutzererkennungsdienst gespeichert.</string>
+    <string name="registration_phone_info_link_text">Benutzererkennungsdienst</string>
     <string name="registration_phone_info_link_url">https://links.xx.network/ud</string>
 
     <!-- Registration: 2FA -->
 
-    <string name="registration_2fa_title">Please enter the code sent to your %s</string>
-    <string name="registration_2fa_body">We sent a verification code to %s.</string>
+    <string name="registration_2fa_title">Gib bitte den Code ein, der an deine %s gesendet wurde</string>
+    <string name="registration_2fa_body">Wir haben einen Code an deine %s gesendet.</string>
     <string name="registration_2fa_input_hint">0000</string>
-    <string name="registration_2fa_resend">Resend Code (%d sec)</string>
-    <string name="registration_2fa_info_title">2-Factor Authentication</string>
+    <string name="registration_2fa_resend">Code erneut senden (%d sec)</string>
+    <string name="registration_2fa_info_title">2-Faktor Authentifikation</string>
     <string name="registration_2fa_info_body">
-        xx messenger uses Twilio’s two-factor authentication to prevent someone from fraudulently
-        registering your email or phone number on xx messenger.</string>
+        xx messenger benutzt Twilio’s 2-Faktor-Authentifikation um zu verhindern, dass jemand in betrügerischer Absicht deine E-Mail oder Telefonnummer bei xx messenger zu registriert.</string>
     <string name="registration_2fa_code_expired">
-        Failed to confirm code. Your verification code may have expired; please resubmit.
+        Code konnte nicht bestätigt werden. Dein Bestätigungscode ist möglicherweise abgelaufen; bitte sende ihn erneut.
     </string>
 
     <!-- Registration: Email 2FA -->
 
-    <string name="registration_email_2fa_title">email.</string>
+    <string name="registration_email_2fa_title">Email-Adresse</string>
 
     <!-- Registration: Phone 2FA -->
 
-    <string name="registration_phone_2fa_title">phone through SMS.</string>
+    <string name="registration_phone_2fa_title">Telefonnummer per SMS</string>
 
     <!-- Registration: Successfully added -->
 
     <string name="registration_successfully_added_title">
-        Your %s has been successfully added.</string>
+        Deine %s erfolgreich hinzugefügt.</string>
 
     <!-- Settings -->
 
-    <string name="settings_notification_info_dialog_title">Notifications</string>
+    <string name="settings_notification_info_dialog_title">Benachrichtigungen</string>
     <string name="settings_notification_info_dialog_body">
-        Selecting this setting will share your account ID and unique phone identifiers with
-        a notification service run by the xx network team. However, these details are
-        obfuscated via an ID collision system when you receive a notification. As a result,
-        both the notifications service and your notifications provider
-        (Firebase on Android, Apple on iOS) cannot tell exactly when you receive a message.</string>
-    <string name="settings_notification_info_dialog_link_text">ID collision system</string>
+        Wenn du diese Einstellung wählst, wird deine Konto-ID und die eindeutigen Telefonkennungen an einen Benachrichtigungsdienst, der vom xx Netzwerk-Team betrieben wird übermittelt.
+	Diese Details werden jedoch über ein ID-Kollisionssystem verschleiert, wenn du eine Benachrichtigung erhältst.
+	Dies hat zur Folge, sowohl der Benachrichtigungsdienst als auch dein Benachrichtigungsanbieter (Firebase auf Android, Apple auf iOS) nicht genau sagen können, wann du eine Nachricht erhältst.</string>
+    <string name="settings_notification_info_dialog_link_text">ID-Kollisionssystem</string>
     <string name="settings_notification_info_dialog_link_url">https://links.xx.network/denseids</string>
-    <string name="settings_biometric_info_dialog_title">Biometric Authentication</string>
+    <string name="settings_biometric_info_dialog_title">Biometrische Authentifikation</string>
     <string name="settings_biometric_info_dialog_body">
-        Biometric authentication is stored through the native system on your phone, not by the xx
-        messenger app. The xx network cannot access your biometric authentication data.</string>
-    <string name="settings_predictive_text_info_dialog_title">Predictive Text</string>
+        Die biometrische Authentifizierung wird durch das System auf Ihrem Telefon gespeichert, nicht durch die xx Messenger-App.
+	Das xx Netzwerk kann nicht auf deine biometrischen Authentifizierungsdaten zugreifen.</string>
+    <string name="settings_predictive_text_info_dialog_title">Prädiktiver Text</string>
     <string name="settings_predictive_text_info_dialog_body">
-        Predictive text is a feature offered by your phone’s operating system. It involves
-        storing entered text within your phone’s operating system and may involve sending it
-        to remote servers. As a result, it may significantly degrade your privacy.</string>
+        Die Textvorhersage ist eine Funktion des Betriebssystems Ihres Telefons.
+	Sie beinhaltet Speicherung des eingegebenen Textes im Betriebssystem des Telefons und möglicherweise das Senden des Textes an entfernte Server.
+	Dies kann zu einer erheblichen Beeinträchtigung deiner Privatsphäre führen.</string>
 
     <!-- Delete account -->
 
-    <string name="settings_confirm_delete_account_title">Delete Account</string>
+    <string name="settings_confirm_delete_account_title">Konto löschen</string>
     <string name="settings_confirm_delete_account_body">
-        A deleted account cannot be recovered.
-        The username associated with this account cannot be reused in the future.
-        \n\nTo confirm your account deletion, type in your username.
+        Ein gelöschtes Konto kann nicht wiederhergestellt werden.
+        Der mit diesem Konto verbundene Benutzername kann in Zukunft nicht mehr verwendet werden.
+        \n\nUm die Löschung Ihres Kontos zu bestätigen, gib deinen Benutzernamen ein.
     </string>
-    <string name="settings_confirm_delete_account_info_dialog_title">Deleting Your Account</string>
+    <string name="settings_confirm_delete_account_info_dialog_title">Dein Konto löschen</string>
     <string name="settings_confirm_delete_account_info_dialog_body">
-        On deletion, all keys for your account are purged from your phone. This action will
-        not notify your contacts. Your keys and any registered emails or phone numbers are
-        removed from the user discovery system.</string>
+        Beim Löschen werden alle Schlüssel für dein Konto von deinem Handy gelöscht. Diese Aktion wird deine Kontakte nicht benachrichtigen.
+	Deine Schlüssel und alle registrierten E-Mail-Adressen oder Telefonnummern werden aus dem Benutzererkennungssystem entfernt.</string>
 
     <!-- Chats -->
 
-    <string name="confirm_delete_all_chats_dialog_title">Delete All Chats?</string>
+    <string name="confirm_delete_all_chats_dialog_title">Alle Chats löschen?</string>
     <string name="confirm_delete_all_chats_dialog_body">
-        All chats will be deleted from this phone. However, your contacts and their copies
-        of your chats will remain unchanged. Encrypted copies may remain on the decentralized
-        network for up to three weeks.\n\nThis will only delete chats locally—they can remain
-        on the network (only decryptable by you) for up to three weeks, and they will also
-        remain on the recipient(s) device(s).</string>
-    <string name="confirm_delete_all_chats_dialog_button">Delete All Chats</string>
+        Alle Chats werden von deinem Handy gelöscht. Deine Kontakte und deren Kopien Ihrer Chats bleiben jedoch unverändert.
+	Verschlüsselte Kopien können bis zu drei Wochen im dezentralen Netzwerk verbleiben.\n\n
+	Dadurch werden Chats nur lokal gelöscht - sie können im Netzwerk (nur von dir entschlüsselbar) für bis zu drei Wochen, und auf dem/den Gerät(en) des/der Empfänger(s) verbleiben.</string>
+    <string name="confirm_delete_all_chats_dialog_button">Alle Chats löschen</string>
 
     <!-- Connections -->
 
