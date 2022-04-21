@@ -282,90 +282,81 @@
 
     <!-- Connections -->
 
-    <string name="send_message_info_dialog_title">Send Message</string>
+    <string name="send_message_info_dialog_title">Nachricht senden</string>
     <string name="send_message_info_dialog_body">
-        Messages are sent over the xx network cMix protocol ensuring that no one can link
-        the sender and recipient. Furthermore, they are encrypted with quantum-secure,
-        end-to-end encryption, with forward secrecy.</string>
+        Die Nachrichten werden über das cMix-Protokoll des xx Netzwerks gesendet, so dass niemand eine Verbindung zwischen Absender und Empfänger nachvollziehen kann.
+	Außerdem werden sie mit einer quantensicheren Ende-zu-Ende-Verschlüsselung mit Vorwärtsgeheimnis verschlüsselt.</string>
     <string name="send_message_info_dialog_link_text">xx network cMix protocol</string>
     <string name="send_message_info_dialog_link_url">https://links.xx.network/cmix</string>
-    <string name="confirm_delete_connection_dialog_title">Delete Connection?</string>
-    <string name="confirm_delete_connection_dialog_body">This is a silent deletion, %s will not
-        know you deleted them. This action will remove all information on your phone about this
-        user, including your communications. You cannot undo this step, and
-        <b>cannot re-add them unless they delete you as a connection as well.</b></string>
-    <string name="confirm_delete_connection_dialog_button">Delete Connection</string>
-    <string name="deleting_connection_info_dialog_title">Deleting Connection</string>
+    <string name="confirm_delete_connection_dialog_title">Verbindung löschen?</string>
+    <string name="confirm_delete_connection_dialog_body">Dies ist eine stille Löschung, %s wird nicht wissen nicht, dass du ihn gelöscht hast.
+	Mit dieser Aktion werden alle Informationen über diesen Benutzer auf Ihrem Handy, einschließlich Ihrer Mitteilungen gelöscht.
+	Du kannst diesen Schritt nicht rückgängig machen, und du
+        <b>kannst ihn nicht wieder hinzufügen, es sei denn, er löschen dich ebenfalls als Verbindung.</b></string>
+    <string name="confirm_delete_connection_dialog_button">Verbindung löschen</string>
+    <string name="deleting_connection_info_dialog_title">Verbindung löschen</string>
     <string name="deleting_connection_info_dialog_body">
-        When a connection is deleted, all private and symmetric keys associated with the
-        connection are purged. It will be impossible to recover them and/or read any new
-        messages they send you.</string>
+        Wenn eine Verbindung gelöscht wird, werden alle privaten und symmetrischen Schlüssel, die mit dieser Verbindung zugeordnet sind, gelöscht.
+	Es wird unmöglich sein, sie wiederherzustellen und/oder neue Nachrichten zu lesen, die er dir schickt.</string>
 
     <!-- Search -->
 
-    <string name="search_info_dialog_title">Search</string>
+    <string name="search_info_dialog_title">Suche</string>
     <string name="search_info_dialog_body">
-        You can search for users by their username, email, or phone number using the xx
-        network’s Anonymous Data Retrieval protocol which keeps a user’s identity anonymous
-        while requesting data. All sent requests contain salted hashes of what you are
-        searching for. Raw data on emails, usernames, and phone numbers do not leave your
-        phone.</string>
-    <string name="search_info_dialog_link_text">Anonymous Data Retrieval protocol</string>
+        Du kannst anhand von Benutzername, Email-Adresse oder Telefonnummer über das Protokoll zum anonymen Datenabruf des xx Netzwerks, welches deine Identität während der Anfrage verbirgt, nach Benutzern suchen.
+	Alle gesendeten Anfragen enthalten gesalzene Hashes des gesuchten.
+	Rohdaten zu E-Mails, Benutzernamen und Telefonnummern verlassen dein Handy nicht</string>
+    <string name="search_info_dialog_link_text">Protokoll zum anonymen Datenabruf</string>
     <string name="search_info_dialog_link_url">https://links.xx.network/adrp</string>
     <string name="search_placeholder_text">
-        Your searches are anonymous. Search information is never linked to your account or
-        personally identifiable.</string>
-    <string name="search_hint">Search</string>
+        Ihre Suchen sind anonym. Die Suchinformationen sind niemals mit Ihrem Konto verknüpft oder persönlich identifizierbar.</string>
+    <string name="search_hint">Suche</string>
 
     <!-- Group Chat -->
 
-    <string name="group_limit_dialog_title">Max Groups Limit</string>
+    <string name="group_limit_dialog_title">Maximales Gruppen Limit</string>
     <string name="group_limit_dialog_body">
-        You have reached the maximum amount of groups. Please leave or delete a group to
-        create a new one.</string>
-    <string name="group_limit_dialog_button">Edit Groups</string>
-    <string name="create_group_info_dialog_title">Create Group</string>
+        Du hast die maximale Anzahl von Gruppen erreicht. Bitte verlasse oder lösche eine Gruppe, um eine neue zu erstellen.</string>
+    <string name="group_limit_dialog_button">Gruppen bearbeiten</string>
+    <string name="create_group_info_dialog_title">Gruppe erstellen</string>
     <string name="create_group_info_dialog_body">
-        A group request will be sent to every user who can choose to join or not. Group chat
-        requests are secured and sent via the xx network cMix protocol. However, due to
-        the inherent batching associated with communicating with many people and current
-        implementation details, it should not be considered as private as a standard,
-        peer-to-peer chat.</string>
+        Eine Gruppenanfrage wird an jeden Benutzer gesendet, der sich entscheiden kann, ob er der Gruppe beitreten möchte oder nicht.
+	Gruppen-Chat Anfragen werden gesichert und über das cMix-Protokoll des xx Netzwerks gesendet.
+	Aufgrund der inhärenten Stapelung, die mit der Kommunikation mit vielen Personen und den aktuellen Implementierungsdetails sollte der Peer-to-Peer-Chat jedoch nicht als privater Standard betrachtet werden.</string>
 
     <!-- User Profile -->
 
-    <string name="confirm_delete_fact_dialog_title">Delete %s?</string>
+    <string name="confirm_delete_fact_dialog_title">%s löschen?</string>
     <string name="confirm_delete_fact_dialog_body">
-        You will no longer be found by this %s. You can add your %s back later.</string>
-    <string name="confirm_delete_fact_dialog_button">Delete %s</string>
+        Du wirst nicht mehr über %s gefunden. Du kannst deine %s später erneut hinzufügen.</string>
+    <string name="confirm_delete_fact_dialog_button">%s löschen</string>
 
     <!-- Private chat -->
 
     <string name="chat_contact_pending_placeholder">
-        You have sent a friend request to %s.\n\n</string>
+        Du hast ein Freundschaftsanfrage an %s gesendet.\n\n</string>
     <string name="chat_contact_pending_placeholder2">
-        You will not be able to begin chatting until %s has accepted your request.</string>
+        Du kannst nicht mit %s chatten, bis er deine Freundschaftsanfrage angenommen hat.</string>
     <string name="chat_empty_placeholder">
-        You and %s now have a quantum-secure, completely private channel for messaging.
-        \nSay hello!</string>
-    <string name="message_hint">Type your message here...</string>
+        Du und %s habt jetzt einen quantensicheren, völlig privaten Kanal für Nachrichten.
+        \nSag Hallo!</string>
+    <string name="message_hint">Gib deine Nachricht hier ein...</string>
 
     <!-- Strings used for fragments for navigation -->
 
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="first_fragment_label">Erstes Fragment</string>
+    <string name="second_fragment_label">Zweites Fragment</string>
 
     <!-- Account backup -->
 
-    <string name="backup_toolbar_title">Account Backup</string>
+    <string name="backup_toolbar_title">Konto Sicherung</string>
 
     <!-- Backup Setup -->
 
-    <string name="backup_setup_title">Setup your backup service.</string>
-    <string name="backup_setup_title_span_text">backup service</string>
+    <string name="backup_setup_title">Richte deinen Sicherungsdienst ein.</string>
+    <string name="backup_setup_title_span_text">Sicherungsdienst</string>
     <string name="backup_setup_description">
-        Back up your account to a cloud storage service, you can restore it along with only your
-        contacts when you reinstall xx Messenger on another device.</string>
+        Sichere dein Konto in einem Cloud-Speicherdienst, damit du es zusammen mit deinen Kontakten wiederherstellen kannst, wenn du xx Messenger auf einem anderen Gerät neu installierst.</string>
     <string name="backup_setup_description_span_text">ⓘ</string>
     <string name="backup_service_google_drive">Google Drive</string>
     <string name="backup_service_icloud">iCloud</string>
@@ -373,53 +364,53 @@
 
     <!-- Backup Settings -->
 
-    <string name="backup_settings_title">Backup Settings</string>
+    <string name="backup_settings_title">Sicherungseinstellungen</string>
     <string name="backup_settings_description">@string/backup_setup_description</string>
     <string name="backup_settings_description_span_text">
         @string/backup_setup_description_span_text</string>
-    <string name="backup_settings_backup_now">Backup Now</string>
+    <string name="backup_settings_backup_now">Jetzt sichern</string>
     <string name="backup_encryption_warning">
-        Content backed up in %s is not protected by xx Network end-to-end encryption.</string>
-    <string name="backup_latest_backup_label">Latest backup</string>
-    <string name="backup_latest_backup_never">Never</string>
-    <string name="backup_frequency_label">Backup to %s</string>
-    <string name="backup_frequency_automatic">Automatic</string>
-    <string name="backup_frequency_manual">Only when I tap \"Back up\"</string>
-    <string name="backup_network_label">Backup over</string>
-    <string name="backup_network_wifi">Wi-Fi Only</string>
-    <string name="backup_network_any">Wi-Fi or Cellular</string>
-    <string name="backup_complete">Backup Complete!</string>
-    <string name="backup_progress_label">Restoring %1$02d MB of %2$02d MB (%d$3%%)</string>
-    <string name="backup_progress_label_placeholder">Downloading…</string>
-    <string name="backup_generic_error_message">Something went wrong. Please try again.</string>
+        Die in %s gesicherten Inhalte sind nicht durch die Ende-zu-Ende-Verschlüsselung von xx Network geschützt.</string>
+    <string name="backup_latest_backup_label">Letzte Sicherung</string>
+    <string name="backup_latest_backup_never">Nie</string>
+    <string name="backup_frequency_label">Nach %s sichern</string>
+    <string name="backup_frequency_automatic">Automatisch</string>
+    <string name="backup_frequency_manual">Nur wenn ich \"Sichern\" drücke</string>
+    <string name="backup_network_label">Sichern über</string>
+    <string name="backup_network_wifi">nur WLAN</string>
+    <string name="backup_network_any">WLAN oder mobile Daten</string>
+    <string name="backup_complete">Sicherung vollständig!</string>
+    <string name="backup_progress_label">Stellt %1$02d MB von %2$02d MB (%d$3%%) wieder her</string>
+    <string name="backup_progress_label_placeholder">Herunterladen…</string>
+    <string name="backup_generic_error_message">Es ist ein Fehler aufgetreten. Bitte versuche es erneut.</string>
 
     <!-- Restore backup -->
 
-    <string name="backup_restore_title">Restore your account.</string>
-    <string name="backup_restore_title_span_text">account</string>
+    <string name="backup_restore_title">Stelle dein Konto wieder her.</string>
+    <string name="backup_restore_title_span_text">Konto</string>
     <string name="backup_restore_description">
-        Restore your account from a previous backup.
-        You’ll be able to have access to all your contacts.</string>
+        Stelle dein Konto von einer früheren Sicherung wieder her.
+        Du kannst dann auf alle deine Kontakte zugreifen.</string>
     <string name="backup_restore_description_span_text">
         @string/backup_setup_description_span_text</string>
     <string name="backup_restore_description_hint">
-        \n\nSelect the cloud storage service you previously used to create a backup.
+        \n\nWähle den Cloud-Speicherdienst aus, den du zuvor zum Erstellen deiner Sicherung verwendet hast.
     </string>
 
     <!-- Restore backup: Backup found -->
 
-    <string name="backup_found_title">Backup Found</string>
-    <string name="backup_found_description">Restore your contacts from the following backup.</string>
-    <string name="backup_found_restore_account">Restore Account</string>
-    <string name="backup_found_restore_complete">Account Restore Complete!</string>
-    <string name="backup_date_label">Backup Date</string>
-    <string name="backup_file_size_label">File Size</string>
+    <string name="backup_found_title">Sicherung gefunden</string>
+    <string name="backup_found_description">Stelle deine Kontakte von der folgenden Sicherung wieder her.</string>
+    <string name="backup_found_restore_account">Konto wiederherstellen</string>
+    <string name="backup_found_restore_complete">Konto Wiederherstellung abgeschlossen!</string>
+    <string name="backup_date_label">Sicherungsdatum</string>
+    <string name="backup_file_size_label">Dateigröße</string>
 
     <!-- Restore backup: No backup found -->
 
-    <string name="backup_not_found_title">No Backup Found</string>
-    <string name="backup_not_found_description">No account backup was found in %s.</string>
-    <string name="backup_not_found_go_back">Go Back</string>
+    <string name="backup_not_found_title">Keine Sicherung gefunden</string>
+    <string name="backup_not_found_description"> Es wurde keine Kontosicherung in %s gefunden.</string>
+    <string name="backup_not_found_go_back">Zurück</string>
 
     <!-- Restore backup: Successful -->
     <string name="backup_restore_successful_title">Your account has been successfully restored.</string>
