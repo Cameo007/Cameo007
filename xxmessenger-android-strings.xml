@@ -39,78 +39,75 @@
     <string name="error_connection_down_title">Du hast keine Netzwerkverbindung mehr</string>
     <string name="error_server_down_title">Verbindung nicht möglich</string>
     <string name="error_server_down_desc">
-        The xx messenger needs an internet connection to run properly.
-        Check that you have a connection to a cellular or wifi network and try again.
-        If the problem persists, try again later.</string>
-    <string name="fcm_message">xx network</string>
+        xx-Messenger benötigt eine Internetverbindung, um ordnungsgemäß zu funktionieren.
+        Überprüfe, ob du eine Mobilfunk- oder WLAN-Verbindung hast und versuche es erneut.
+        Wenn das Problem weiterhin besteht, versuchen Sie es später noch einmal.</string>
+    <string name="fcm_message">xx Netzwerk</string>
     <string name="progress_secondary_text">
-        [B]Did you know?[B]<br /> When you send an xm,
-        it travels to and is mixed across 4 continents, travelling the equivalent of
-        half the distance to the moon!</string>
-    <string name="settings">Settings</string>
+        [B]Wusstest du?[B]<br /> Wenn du eine xm verschickst, reist sie zu 4 Kontinenten und wird dort vermischt, was einer halben Entfernung zum Mond entspricht!</string>
+    <string name="settings">Einstellungen</string>
 
     <!-- Biometrics -->
 
-    <string name="biometric_error_sdk_not_supported">SDK version not supported</string>
+    <string name="biometric_error_sdk_not_supported">SDK Version wird nicht unterstützt</string>
     <string name="biometric_error_hardware_not_supported">
-        Device does not support biometric authentication</string>
+        Das Gerät unterstützt keine biometrische Authentifikation</string>
     <string name="biometric_error_fingerprint_not_available">
-        Fingerprint is not registered in device or secure lock is not set.</string>
-    <string name="biometric_error_permission_not_granted">Permission is not granted by user</string>
-    <string name="biometric_reset">Your biometrics configuration has been reset</string>
-    <string name="biometric_failure">Biometric auth has failed!</string>
-    <string name="biometric_cancelled">Authentication cancelled by user</string>
-    <string name="biometric_success">Biometrics Login was Successful!</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_qr_code">QrCodeActivity</string>
+        Im Gerät ist kein Fingerabdruck eingerichtet oder die Sicherheitssperre ist nicht aktiviert.</string>
+    <string name="biometric_error_permission_not_granted">Die Berechtigung wurde vom Benutzer nicht erteilt</string>
+    <string name="biometric_reset">Ihre Biometrieeinstellungen wurden zurückgesetzt</string>
+    <string name="biometric_failure">Die biometrische Authentifikation ist fehlgeschlagen!</string>
+    <string name="biometric_cancelled">Die Authentifikation wurde vom Benutzer abgebrochen</string>
+    <string name="biometric_success">Die biometrische Authentifikation war erfolgreich!</string>
+    <string name="hello_blank_fragment">Hallo, leeres Fragment</string>
+    <string name="title_activity_qr_code">QR-Code Activity</string>
 
     <!-- General -->
 
-    <string name="ok">Ok</string>
-    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
 
     <!-- Strings used for fragments for navigation -->
 
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="next">Weiter</string>
+    <string name="previous">Zurück</string>
 
     <!-- Hints -->
-    <string name="hint_password">Password</string>
-    <string name="hint_confirm_password">Confirm Password</string>
-    <string name="hint_result">Result</string>
-    <string name="hint_username">Username</string>
+    <string name="hint_password">Passwort</string>
+    <string name="hint_confirm_password">Passwort bestätigen</string>
+    <string name="hint_result">Ergebnis</string>
+    <string name="hint_username">Benutzername</string>
 
     <!-- Confirmation & Btn -->
-    <string name="btn_next">Next</string>
-    <string name="btn_not_now">Not right now</string>
-    <string name="btn_unlock">Unlock</string>
+    <string name="btn_next">Weiter</string>
+    <string name="btn_not_now">Nicht jetzt</string>
+    <string name="btn_unlock">Entsperren</string>
 
     <!-- Create Account Screen -->
 
-    <string name="registration_create_account_title">Create Account</string>
-    <string name="registration_keystore_created">Keystore Created</string>
+    <string name="registration_create_account_title">Konto erstellen</string>
+    <string name="registration_keystore_created">Schlüsselspeicher erstellt</string>
     <string name="registration_public_profile_msg">
-        Help others find you by completing your public profile</string>
-    <string name="registration_complete_now">Complete Now!</string>
-    <string name="registration_btn_skip">Skip</string>
-    <string name="registration_password_msg">Password must contain 6 characters</string>
-    <string name="registration_password_must_contain_msg">Password must contain<br />6 characters.</string>
-    <string name="registration_passwords_must_match_msg">Passwords must match</string>
-    <string name="registration_passwords_contains_char_msg">Password contains 6 characters</string>
-    <string name="registration_passwords_match">Passwords Match</string>
-    <string name="registration_username_must_be_char">Username must be at least 4 characters.</string>
-    <string name="registration_username_invalid_char">Username has invalid characters</string>
-    <string name="registration_username_max_char">Max character limit reached.</string>
-    <string name="registration_username_already_taken">Name already exists.</string>
-    <string name="registration_character_requirement_met">Character requirement met.</string>
+        Vervollständige dein öffentliches Profil, damit andere dich leichter finden können</string>
+    <string name="registration_complete_now">Jetzt vervollständigen!</string>
+    <string name="registration_btn_skip">Überspringen</string>
+    <string name="registration_password_msg">Das Passwort muss 6 Zeichen lang sein</string>
+    <string name="registration_password_must_contain_msg">Das Passwort muss <br />6 Zeichen lang sein.</string>
+    <string name="registration_passwords_must_match_msg">Passwörter müssen übereinstimmen</string>
+    <string name="registration_passwords_contains_char_msg">Das Passwort ist 6 Zeichen lang</string>
+    <string name="registration_passwords_match">Passwörter stimmen überein</string>
+    <string name="registration_username_must_be_char">Der Benutzername muss mindestens 4 Zeichen lang sein.</string>
+    <string name="registration_username_invalid_char">Der Benutzername enthält verbotene Zeichen</string>
+    <string name="registration_username_max_char">Maximale Zeichenanzahl erreicht.</string>
+    <string name="registration_username_already_taken">Der Name existiert bereits.</string>
+    <string name="registration_character_requirement_met">Charaktervoraussetzung erfüllt.</string>
     <string name="registration_unique_username_msg">
-        Create a unique username on the xx network that will appear in both the Public Search
-        and in users’ contacts.</string>
-    <string name="registration_username_cannot_be_empty">Username can\'t be empty</string>
+        Erstellen Sie einen eindeutigen Benutzernamen für das xx-Netzwerk, der sowohl in der öffentlichen Suche und in den Kontakten der Benutzer erscheint.</string>
+    <string name="registration_username_cannot_be_empty">Der Benutzername kann nicht leer sein</string>
 
     <!-- Chat screen -->
 
-    <string name="chat_say_hello_text">Say hello to %s!</string>
+    <string name="chat_say_hello_text">Sage hallo zu %s!</string>
     <string name="chat_msg_elapsed_time">%1$02d:%2$02d</string>
     <string name="chat_msg_document_file_size">%02d KB</string>
 
