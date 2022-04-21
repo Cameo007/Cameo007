@@ -119,81 +119,72 @@
     <string name="group_notification_channel_id" translatable="false">group_channel</string>
     <string name="e2e_notification_channel_id" translatable="false">e2e_channel</string>
 
-    <string name="notification_request_text">Request received</string>
-    <string name="notification_confirm_text">Request accepted</string>
-    <string name="notification_e2e_text">New private message</string>
-    <string name="notification_group_text">New group message</string>
-    <string name="notification_endft_text">New media received</string>
-    <string name="notification_reset_text">One of your contacts has restored their account</string>
+    <string name="notification_request_text">Anfrage erhalten</string>
+    <string name="notification_confirm_text">Anfrage akzeptiert</string>
+    <string name="notification_e2e_text">Neue private Nachricht</string>
+    <string name="notification_group_text">Neue Gruppennachricht</string>
+    <string name="notification_endft_text">Neue Medien erhalten</string>
+    <string name="notification_reset_text">Einer deiner Kontakte hat sein Konto wiederhergestellt</string>
 
-    <string name="default_notification_channel_label">Other notifications</string>
-    <string name="notification_request_channel_label">Received requests</string>
-    <string name="notification_confirm_channel_label">Sent requests</string>
-    <string name="notification_e2e_channel_label">Private messages</string>
-    <string name="notification_group_channel_label">Group messages</string>
+    <string name="default_notification_channel_label">Andere Benachrichtigungen</string>
+    <string name="notification_request_channel_label">Erhaltene Anfragen</string>
+    <string name="notification_confirm_channel_label">Versendete Anfragen</string>
+    <string name="notification_e2e_channel_label">Private Nachricht</string>
+    <string name="notification_group_channel_label">Gruppennachricht</string>
 
     <!-- Requests -->
 
-    <string name="request_verifying_popup_title">Verifying</string>
-    <string name="request_verifying_popup_message">
-        We are working on verifying the request to make
-        sure it’s not spam. Please check again shortly.</string>
+    <string name="request_verifying_popup_title">Überprüfen</string>
+    <string name="request_verifying_popup_message">Wir arbeiten daran, die Anfrage zu überprüfen, um sicherzustellen dass es sich nicht um Spam handelt. Bitte überprüfe dies in Kürze erneut.</string>
 
     <!-- Registration: Common -->
 
-    <string name="registration_intro_tagline">A quantum leap in privacy</string>
-    <string name="registration_intro_cta">Get Started</string>
-    <string name="registration_flow_next">Next</string>
-    <string name="registration_flow_ok">Got it</string>
-    <string name="registration_flow_done">Done</string>
+    <string name="registration_intro_tagline">Ein Quantensprung in Sachen Datenschutz</string>
+    <string name="registration_intro_cta">Los geht's!</string>
+    <string name="registration_flow_next">Weiter</string>
+    <string name="registration_flow_ok">Verstanden</string>
+    <string name="registration_flow_done">Fertig</string>
 
     <!-- Registration: Username -->
 
-    <string name="registration_username_title">Choose your username.</string>
-    <string name="registration_username_title_span">username</string>
+    <string name="registration_username_title">Wähle einen Benutzernamen.</string>
+    <string name="registration_username_title_span">Benutzername</string>
     <string name="registration_username_body">
-        Your unique username is the first name your contacts
-        will see in their searches and contact lists.\n\nThis cannot be changed.</string>
-    <string name="registration_choose_username_hint">Username</string>
+        Ihr eindeutiger Benutzername ist der erste Name, den deine Kontakte in ihren Suchen und Kontaktlisten sehen werden.\n\nEr kann nicht geändert werden.</string>
+    <string name="registration_choose_username_hint">Benutzername</string>
     <string name="registration_username_explanation">
-        Your chosen username will be registered with
-        the User Discovery Service allowing your public keys to be accessible to anyone who knows
-        your username. They will then be able to send a request to create an authenticated channel
-        with you. You will then be able to reject unwanted requests.</string>
-    <string name="registration_username_info_title">Your Username</string>
+        Der von Ihnen gewählte Benutzername wird beim User Discovery Service registriert, so dass Ihre öffentlichen Schlüssel für jeden, der Ihren Benutzernamen kennt, zugänglich sind.
+	Andere können dann eine Anfrage senden, um einen authentifizierten Kanal mit dir zu erstellen. Du hast dann die Möglichkeit, unerwünschte Anfragen abzulehnen.</string>
+    <string name="registration_username_info_title">Dein Benutzername</string>
     <string name="registration_username_info_body">
-        Your chosen username will be registered with the
-        User Discovery Service allowing your public keys to be accessible to anyone who knows your
-        username. They will then be able to send a request to create an authenticated channel
-        with you. You will then be able to reject unwanted requests.</string>
+        Der von Ihnen gewählte Benutzername wird beim User Discovery Service registriert, so dass Ihre öffentlichen Schlüssel für jeden, der Ihren Benutzernamen kennt, zugänglich sind.
+	Andere können dann eine Anfrage senden, um einen authentifizierten Kanal mit dir zu erstellen. Du hast dann die Möglichkeit, unerwünschte Anfragen abzulehnen.</string>
     <string name="registration_username_info_dialog_link_text">User Discovery Service</string>
     <string name="registration_username_info_dialog_link_url">https://links.xx.network/ud</string>
     <string name="registration_error_username_min_len">
         User name must be at least four characters</string>
-    <string name="registration_error_username_taken">Username taken. Try again.</string>
-    <string name="registration_username_restore_account">Already have an account?</string>
-    <string name="registration_username_restore_button">Restore From Backup</string>
+    <string name="registration_error_username_taken">Benutzername vergeben. Versuchen Sie es erneut.</string>
+    <string name="registration_username_restore_account">Hast du bereits ein Konto?</string>
+    <string name="registration_username_restore_button">Sicherung wiederherstellen</string>
 
     <!-- Registration: Welcome -->
 
-    <string name="registration_welcome_title">%s, <br />welcome to xx network</string>
+    <string name="registration_welcome_title">%s, <br />Willkommen im xx Netzwerk</string>
     <string name="registration_welcome_body">
-        Would you like to register an email or phone number
-        to help other users find your account? If not, you can still be found by your username,
-        or completely off the grid using QR codes.</string>
-    <string name="registration_welcome_continue">Yes, continue </string>
-    <string name="registration_welcome_skip">No, skip this step</string>
-    <string name="registration_welcome_dialog_title">Welcome</string>
-    <string name="registration_welcome_dialog_body">Registration is completely optional. When
-        registering an email or phone number, they will be evaluated by twilio, a 3rd party
-        partner.  Afterwards, salted hashes will be registered in User Discovery to allow
-        other uses to search for you using the registered data completely privately. </string>
+        Willst du eine Email-Adresse oder Telefonnummer registrieren,
+        damit andere dein Konto leichter finden können? Sonst kannst du nur über deinen Benutzernamen gefunden werden,
+        oder völlig unauffällig über QR-Codes.</string>
+    <string name="registration_welcome_continue">Ja, weiter </string>
+    <string name="registration_welcome_skip">Nein, überspringe diesen Schritt</string>
+    <string name="registration_welcome_dialog_title">Willkommen</string>
+    <string name="registration_welcome_dialog_body">Die Angabe ist freiwillig. Wenn du eine Email-Adresse oder eine Telefonnummer angibst, wird sie von twillio, einem Drittanbieter evaluiert.
+	Danach werden die gesalzenen Hashes in der Benutzererkennung registriert, um anderen Nutzern die Möglichkeit zu geben, anhand der registrierten Daten ganz datenschutzkonform nach Ihnen zu suchen. </string>
     <string name="registration_welcome_dialog_link_text">User Discovery</string>
     <string name="registration_welcome_dialog_link_url">https://links.xx.network/ud</string>
 
     <!-- Registration: Email -->
 
-    <string name="registration_email_title">Add your email.</string>
+    <string name="registration_email_title">Email-Adresse hinzufügen.</string>
     <string name="registration_email_body">
         You can add, remove, or edit this email in your profile
         settings. Adding an email is optional.</string>
