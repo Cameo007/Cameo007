@@ -9,14 +9,14 @@
     <!-- Bottom navigation Menu Titles -->
 
     <string name="menu_chats">Chats</string>
-    <string name="menu_contacts">Kontakte</string>
+    <string name="menu_contacts">Verbindungen</string>
     <string name="menu_requests">Anfragen</string>
     <string name="menu_profile">Profil</string>
     <string name="menu_scan">QR-Code scannen</string>
     <string name="chats">Chats</string>
     <string name="search_bar_text">Chats suchen</string>
     <string name="dashboard">Dashbord</string>
-    <string name="search_contacts">Kontakte suchen</string>
+    <string name="search_contacts">Verbindungen suchen</string>
     <string name="search_chats">Chats suchen</string>
     <string name="search_country">+49 Deutschland</string>
     <string name="password_recovery_info">Woher bekomme ich einen Code?</string>
@@ -421,18 +421,17 @@
     <string name="backup_restore_multidevice_warning_dialog_title">Achtung</string>
     <string name="backup_restore_multidevice_warning_dialog_body">
         xx messenger Konten können aktuell nur auf einem Gerät genutzt werden.
-        \n\nUsing the same account on multiple devices may permanently damage your
-        account and make it impossible to converse with your contacts.
+        \n\nDie Verwendung desselben Kontos auf mehreren Geräten kann Ihr Konto dauerhaft beschädigen und es unmöglich machen, mit Ihren Kontakten zu kommunizieren.
     </string>
     <string name="backup_restore_multidevice_warning_dialog_button">Ich verstehe</string>
 
     <!-- Uncategorized -->
 
-    <string name="label_add">Add</string>
-    <string name="label_remove">Remove</string>
-    <string name="connections_new_group">Create Group</string>
-    <string name="connections_title">Connections</string>
-    <string name="settings_notifications_title">Notifications</string>
+    <string name="label_add">Hinzufügen</string>
+    <string name="label_remove">Löschen</string>
+    <string name="connections_new_group">Gruppe erstellen</string>
+    <string name="connections_title">Verbindungen</string>
+    <string name="settings_notifications_title">Benachrichtigungen</string>
     <string name="settings_biometrics_description">Unlock the app with your device biometrics.</string>
     <string name="settings_predictive_text_description">Allow keyboard to use activity for predictive text in-app.</string>
     <string name="title_activity_intro">IntroActivity</string>
