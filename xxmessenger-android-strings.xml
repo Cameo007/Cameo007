@@ -413,18 +413,18 @@
     <string name="backup_not_found_go_back">Zurück</string>
 
     <!-- Restore backup: Successful -->
-    <string name="backup_restore_successful_title">Your account has been successfully restored.</string>
-    <string name="backup_restore_successful_title_span_1">account</string>
-    <string name="backup_restore_successful_title_span_2">restored</string>
+    <string name="backup_restore_successful_title">Dein Konto wurde erfolgreich wiederhergestellt.</string>
+    <string name="backup_restore_successful_title_span_1">Konto</string>
+    <string name="backup_restore_successful_title_span_2">wiederhergestellt</string>
     <string name="backup_restore_successful_description">
-        You now have access to all your contacts.</string>
-    <string name="backup_restore_multidevice_warning_dialog_title">Warning</string>
+        Nun kannst du auf alle deine Kontakte zugreifen.</string>
+    <string name="backup_restore_multidevice_warning_dialog_title">Achtung</string>
     <string name="backup_restore_multidevice_warning_dialog_body">
         xx messenger account can only run on a single device at a time.
         \n\nUsing the same account on multiple devices may permanently damage your
         account and make it impossible to converse with your contacts.
     </string>
-    <string name="backup_restore_multidevice_warning_dialog_button">I understand</string>
+    <string name="backup_restore_multidevice_warning_dialog_button">Ich verstehe</string>
 
     <!-- Uncategorized -->
 
