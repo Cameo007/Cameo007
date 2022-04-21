@@ -420,7 +420,7 @@
         Nun kannst du auf alle deine Kontakte zugreifen.</string>
     <string name="backup_restore_multidevice_warning_dialog_title">Achtung</string>
     <string name="backup_restore_multidevice_warning_dialog_body">
-        xx messenger account can only run on a single device at a time.
+        xx messenger Konten können aktuell nur auf einem Gerät genutzt werden.
         \n\nUsing the same account on multiple devices may permanently damage your
         account and make it impossible to converse with your contacts.
     </string>
